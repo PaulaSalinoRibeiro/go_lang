@@ -24,24 +24,21 @@ Em Go não é permitido criar uma variavel e não utilizá-la. Além disso, é u
 
 ## Tipos de Dados
 
-int8, int16, int32, int64 suportam 8, 16, 32 e 64 bits respectivamente
-int - toma como padrão a arquitetura do computador
-uint - não aceita numeros negativos
-float32, float64
-
-string - sempre utiliza aspas duplas
-
-bool - boleano
-
-error - erro
-
+- int8, int16, int32, int64 suportam 8, 16, 32 e 64 bits respectivamente
+- int - toma como padrão a arquitetura do computador
+- uint - não aceita numeros negativos
+- float32, float64
+- string - sempre utiliza aspas duplas
+- bool - boleano
+- error - erro
 #### Valor Zero - É o valor de uma variavel que não foi inicializada
 
-string = ""
-int = 0
-float = 0.0
-bool = false
-error = <nil>
+- string = ""
+- int = 0
+- float = 0.0
+- bool = false
+- error = <nil>
 
 ## Funções
 
+Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nominado
