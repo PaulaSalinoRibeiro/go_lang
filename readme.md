@@ -56,9 +56,9 @@ Podem o não ter parametros e retorno, como também pode ter mais de um retorno 
   - =
   - := (já utiliza a inferencia de tipos)
 
-- Relecionais
-  - >
-  - >= 
+- Relacionais
+  - \>
+  - \>= 
   - ==
   - <=
   - <
