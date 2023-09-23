@@ -42,3 +42,40 @@ Em Go não é permitido criar uma variavel e não utilizá-la. Além disso, é u
 ## Funções
 
 Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nominado
+
+## Operadores
+
+- Aritimeticos
+  - +
+  - - 
+  - /
+  - *
+  - %
+
+- Atribuição
+  - =
+  - := (já utiliza a inferencia de tipos)
+
+- Relecionais
+  - >
+  - >= 
+  - ==
+  - <=
+  - <
+  - !=
+
+- Logicos
+  - &&
+  - ||
+  - !
+
+- Operadores unarios
+  - ++
+  - += 
+  - --
+  - -=
+  - *= 
+  - /=
+  - %=
+
+Em Go não existe operador ternario
