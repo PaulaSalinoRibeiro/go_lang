@@ -41,7 +41,7 @@ Em Go não é permitido criar uma variavel e não utilizá-la. Além disso, é u
 
 ## Funções
 
-Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nominado
+Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nomenado
 
 ## Operadores
 
@@ -79,3 +79,9 @@ Podem o não ter parametros e retorno, como também pode ter mais de um retorno 
   - %=
 
 Em Go não existe operador ternario
+
+
+## Structs
+
+- É uma coleção de campos
+- Semelhante a uma classe, pois no Go não existe classe
