@@ -126,3 +126,8 @@ type estudate struct {
 ## Maps
 
 - É uma estrutura do tipo chave valor
+
+## Estruturas de Controle
+
+- caso alguma condição seja verdadeira realiza determinado código, caso contrário executa outro conjuto de codigo
+- if init ( inicializa uma variavel dentro de uma condição ) só existe dentro do escopo da condição e não pode ser acessada fora da estrutura.
