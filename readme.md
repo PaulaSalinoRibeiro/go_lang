@@ -131,3 +131,9 @@ type estudate struct {
 
 - caso alguma condição seja verdadeira realiza determinado código, caso contrário executa outro conjuto de codigo
 - if init ( inicializa uma variavel dentro de uma condição ) só existe dentro do escopo da condição e não pode ser acessada fora da estrutura.
+
+## Switch
+
+- estrutura utilizada quando existe muitas condições, mais legivel que muitos if/else
+- `fallthrought`: executa a próxima condição (pouco utilizada)
+- não existe `break`
