@@ -37,7 +37,7 @@ Em Go não é permitido criar uma variavel e não utilizá-la. Além disso, é u
 - int = 0
 - float = 0.0
 - bool = false
-- error = <nil>
+- error = \<nil>
 
 ## Funções
 
@@ -94,8 +94,9 @@ type pessoa struct {
   idade int
 }
 
+// composição
 type estudate struct {
-  pessoa
+  pessoa 
   curso string
   faculdade string
 }
@@ -123,3 +124,5 @@ type estudate struct {
   - recebe 3 parametros: o tipo, tamanho e capacidade(opcional quando nao passado assume o mesmo valor do tamanho)
 
 ## Maps
+
+- É uma estrutura do tipo chave valor
