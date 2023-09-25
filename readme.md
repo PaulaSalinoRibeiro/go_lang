@@ -105,3 +105,21 @@ type estudate struct {
 ## Ponteiros
 
 - Salva o endereços de memoria
+
+## Array e Slices
+
+- Array
+  - Lista de valores
+  - Todos os dados de um array devem ser do mesmo tipo
+  - Precisa necessáriamente especificar o tamanho 
+
+- Slices
+  - Estrutura baseada no array
+  - Flexivel o tamanho
+  - Possui e mesma limitação do tipo de dados armazenado que o array
+
+- Make
+  - função que serve para alocar um espaço na memoria
+  - recebe 3 parametros: o tipo, tamanho e capacidade(opcional quando nao passado assume o mesmo valor do tamanho)
+
+## Maps
