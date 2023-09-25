@@ -85,3 +85,23 @@ Em Go não existe operador ternario
 
 - É uma coleção de campos
 - Semelhante a uma classe, pois no Go não existe classe
+
+```bash
+
+type pessoa struct {
+  nome string
+  sobrenome string
+  idade int
+}
+
+type estudate struct {
+  pessoa
+  curso string
+  faculdade string
+}
+
+```
+
+## Ponteiros
+
+- Salva o endereços de memoria
