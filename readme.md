@@ -40,6 +40,7 @@
 ## Funções
 
 - Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nomenados.
+- Funções variadicas são funções que recebem n parametros, sendo passado como o último parametro da função.
 
 ## Operadores
 
