@@ -41,6 +41,7 @@
 
 - Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nomenados.
 - Funções variadicas são funções que recebem n parametros, sendo passado como o último parametro da função.
+- Funções recursivas são funcões que dependem da sua propria execusão. É muito importante que tenha uma condição de parada para que não ocorra o estoura de pilha,e não é recomendada em caso que precise de muitas execuções 
 
 ## Operadores
 
