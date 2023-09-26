@@ -2,25 +2,23 @@
 
 ## Hello world
 
-Um arquivo executável precisa seguir a assinatura do arquivo `hello.go` contendo o `package main`, `imports` e `func main`.
-Para rodar o programa executa o comando `go run <nome do arquivo>`.
+- Um arquivo executável precisa seguir a assinatura do arquivo `hello.go` contendo o `package main`, `imports` e `func main`.
+- Para rodar o programa executa o comando `go run <nome do arquivo>`.
 
 ## Pacotes
 
-Pacotes são um conjunto de arquivos que estão no mesmo diretório.
-
-Quando trabalha com pacotes, precisar iniciar o modulo, para isso, basta executar o comando `go mod init <nome do modulo>`.
-Para realizar o import primeiro o nome do modulo e depois o nome do pacote `ex: "module/auxiliars"`.
-
-Note: funções com letras minusculas são visiveis apenas no prórpio pacote, para ser exportada é necessário utilizar letras maiusculas.
-E é uma boa prática escrever um comentário em cima de funções que são exportadas informando o que fazem!
-
-Para utilizar pacotes externos utiliza o comando `go get <url do pacote>`. Automaticamente será criado um arquivo `go.sum`
-Para remover uma dependecia externa que não está sendo utilizada executa o comando `go mod tidy`.
+- Pacotes são um conjunto de arquivos que estão no mesmo diretório.
+- Quando trabalha com pacotes, precisar iniciar o modulo, para isso, basta executar o comando `go mod init <nome do modulo>`.
+- Para realizar o import primeiro vem o nome do modulo e depois o nome do pacote `ex: "module/auxiliars"`.
+- Note: Funções com letras minusculas são visiveis apenas dentro do prórpio pacote, para ser exportada é necessário utilizar letras maiusculas.
+- E é uma boa prática escrever um comentário em cima de funções que são exportadas informando o que fazem!
+- Para utilizar pacotes externos utiliza o comando `go get <url do pacote>`. Automaticamente será criado um arquivo `go.sum`
+- Para remover uma dependecia externa que não está sendo utilizada executa o comando `go mod tidy`.
 
 ## Variaveis
 
-Em Go não é permitido criar uma variavel e não utilizá-la. Além disso, é uma linguagem fortemente tipada.
+- Em Go não é permitido criar uma variavel e não utilizá-la. 
+- Além disso, é uma linguagem fortemente tipada.
 
 ## Tipos de Dados
 
@@ -41,7 +39,7 @@ Em Go não é permitido criar uma variavel e não utilizá-la. Além disso, é u
 
 ## Funções
 
-Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nomenado
+- Podem o não ter parametros e retorno, como também pode ter mais de um retorno e retorno nomenados.
 
 ## Operadores
 
@@ -78,13 +76,12 @@ Podem o não ter parametros e retorno, como também pode ter mais de um retorno 
   - /=
   - %=
 
-Em Go não existe operador ternario
-
+- Em Go não existe operador ternário
 
 ## Structs
 
 - É uma coleção de campos
-- Semelhante a uma classe, pois no Go não existe classe
+- Semelhante a uma classe, em Go não existe classe!
 
 ```bash
 
@@ -105,7 +102,7 @@ type estudate struct {
 
 ## Ponteiros
 
-- Salva o endereços de memoria
+- Salva o endereços de memória
 
 ## Array e Slices
 
@@ -120,20 +117,27 @@ type estudate struct {
   - Possui e mesma limitação do tipo de dados armazenado que o array
 
 - Make
-  - função que serve para alocar um espaço na memoria
-  - recebe 3 parametros: o tipo, tamanho e capacidade(opcional quando nao passado assume o mesmo valor do tamanho)
+  - Função que serve para alocar um espaço na memoria
+  - Recebe 3 parametros: o tipo, tamanho e capacidade(opcional; quando nao passado assume o mesmo valor do tamanho)
 
 ## Maps
 
 - É uma estrutura do tipo chave valor
+- Mais rigidas em relação aos tipos que a Struct
 
 ## Estruturas de Controle
 
-- caso alguma condição seja verdadeira realiza determinado código, caso contrário executa outro conjuto de codigo
+- Caso alguma condição seja verdadeira realiza determinado código, caso contrário executa outro conjuto de codigo
 - if init ( inicializa uma variavel dentro de uma condição ) só existe dentro do escopo da condição e não pode ser acessada fora da estrutura.
 
 ## Switch
 
-- estrutura utilizada quando existe muitas condições, mais legivel que muitos if/else
-- `fallthrought`: executa a próxima condição (pouco utilizada)
-- não existe `break`
+- Estrutura utilizada quando existe muitas condições, mais legivel que muitos if/else
+- `fallthrought` executa a próxima condição (pouco utilizada)
+- Não existe clausula `break`
+
+## Loops
+
+- São estruturas de repetição
+- Só existe o `for`
+- É possivel interar sob `maps`, mas não é permitido interar em `structs`
