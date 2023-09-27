@@ -45,7 +45,9 @@
 - Funções recursivas são funcões que dependem da sua propria execusão. É muito importante que tenha uma condição de parada para que não ocorra o estouro de pilha,e não é recomendada em caso que precise de muitas execuções.
 
 - `defer` clausula utilizada para adiar a execução de uma função. Muito utilizada para encerrar conexões com banco de dados.
+
 - `panic` encerra o programa, mas antes de encerrar o programa executa tudo que estiver em `defer`.
+
 - `recover` permite recuperar um programa que está em `panic`.
 
 - `Closure` funções que refereciam variáveis que estão fora do seu escopo.
