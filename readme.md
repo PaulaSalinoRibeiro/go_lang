@@ -153,3 +153,7 @@ type estudate struct {
 - São estruturas de repetição
 - Só existe o `for`
 - É possivel interar sob `maps`, mas não é permitido interar em `structs`
+
+## Métodos
+
+- Permite "ações" as `struct`.
