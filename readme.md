@@ -52,6 +52,7 @@
 
 - `Closure` funções que refereciam variáveis que estão fora do seu escopo.
 
+- `inti()` função que é executada antes da função `main` podendo ter uma por arquivo.
 ## Operadores
 
 - Aritimeticos
