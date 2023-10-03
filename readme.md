@@ -168,3 +168,12 @@ type estudate struct {
 ## Goroutine
 
 - Colocar a clausula `go` antes de uma função ou metodo.
+
+## Wait Group
+
+- Metodo para sincronizar goroutines.
+- waitGroup.Add(x) informa quantas goroutines serão executadas
+- waitGroup.Done() informa que a goroutine foi finalizada e remove um de waitGroup.Add()
+- waitGroup.Wait() indica que existem goroutines para ser executadas antes de encerrar o programa.
+
+## Canais
