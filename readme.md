@@ -82,7 +82,7 @@
 - Operadores unarios
   - ++
   - += 
-  - --
+  - \--
   - -=
   - *= 
   - /=
@@ -103,7 +103,7 @@ type pessoa struct {
   idade int
 }
 
-// composição
+// composição ou embeding
 type estudate struct {
   pessoa 
   curso string
@@ -153,7 +153,18 @@ type estudate struct {
 - São estruturas de repetição
 - Só existe o `for`
 - É possivel interar sob `maps`, mas não é permitido interar em `structs`
+- Para sair de um loop pode-se utilizar a clasula `break`
 
 ## Métodos
 
 - Permite "ações" as `struct`.
+
+## Concorrencia
+
+- Paralelismo != Concorrencia
+- Paralelismo processos que ocorrem simultanemanente em processadores que mais de um nucleo
+- Concorrencia podem ou não ocorre de forma simultanea em processadores que tem mais de um nucleo, mas em processadores que so existem um nucleo ocorre o revesamento dos processos, deste modo um processo não precisa experar o outro acabar para iniciar.
+
+## Goroutine
+
+- Colocar a clausula `go` antes de uma função ou metodo.
