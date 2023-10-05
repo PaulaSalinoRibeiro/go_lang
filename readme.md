@@ -159,10 +159,10 @@ type estudate struct {
 
 - Permite "ações" as `struct`.
 
-## Concorrencia
+## Concorrência
 
-- Paralelismo != Concorrencia
-- Paralelismo processos que ocorrem simultanemanente em processadores que mais de um nucleo
+- Paralelismo != Concorrência.
+- Paralelismo processos que ocorrem simultanemanente em processadores que mais de um nucleo.
 - Concorrencia podem ou não ocorre de forma simultanea em processadores que tem mais de um nucleo, mas em processadores que so existem um nucleo ocorre o revesamento dos processos, deste modo um processo não precisa experar o outro acabar para iniciar.
 
 ## Goroutine
@@ -187,3 +187,7 @@ type estudate struct {
 
 - É especificado uma capacidade
 - Nesse caso quando uma capacidade é espeficicada não ocorre o bloqueio `deadlock`
+
+## Select
+
+- Muito parecida com o switch mas utilizada para concorrência.
