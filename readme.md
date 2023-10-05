@@ -177,3 +177,7 @@ type estudate struct {
 - waitGroup.Wait() indica que existem goroutines para ser executadas antes de encerrar o programa.
 
 ## Canais
+
+- Forma mais utilizada para sincronizar as goroutines
+- É um canal de comunicação que pode tanto enviar como receber dados
+- Canais bloqueiam a execução do programa
