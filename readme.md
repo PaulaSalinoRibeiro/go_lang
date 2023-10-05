@@ -181,3 +181,9 @@ type estudate struct {
 - Forma mais utilizada para sincronizar as goroutines
 - É um canal de comunicação que pode tanto enviar como receber dados
 - Canais bloqueiam a execução do programa
+
+
+## Canais com Buffer
+
+- É especificado uma capacidade
+- Nesse caso quando uma capacidade é espeficicada não ocorre o bloqueio `deadlock`
